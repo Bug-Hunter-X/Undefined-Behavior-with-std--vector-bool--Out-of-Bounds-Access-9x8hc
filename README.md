@@ -1,0 +1,1 @@
+This repository demonstrates a potential issue with using std::vector<bool> in C++.  Specifically, accessing elements outside the vector's bounds can lead to undefined behavior without the usual out-of-range exceptions. The bug.cpp file shows the problematic code, while bugSolution.cpp offers safer alternatives.
